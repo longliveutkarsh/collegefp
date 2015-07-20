@@ -161,6 +161,7 @@ public class cpf2 extends javax.swing.JFrame {
         mait m= new mait();
         m.show();
         this.dispose();
+        
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
