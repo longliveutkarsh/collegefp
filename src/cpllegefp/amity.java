@@ -104,7 +104,7 @@ public class amity extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jButton1);
-        jButton1.setBounds(60, 810, 55, 23);
+        jButton1.setBounds(540, 660, 55, 23);
 
         jLabel1.setText("jLabel1");
         jPanel1.add(jLabel1);

@@ -36,6 +36,9 @@ public class msit extends javax.swing.JFrame {
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
+        jLabel10 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -70,9 +73,26 @@ public class msit extends javax.swing.JFrame {
         jPanel1.add(jLabel7);
         jLabel7.setBounds(100, 700, 90, 14);
 
-        jLabel8.setText("jLabel8");
+        jLabel8.setText("Address:");
         jPanel1.add(jLabel8);
-        jLabel8.setBounds(100, 730, 34, 14);
+        jLabel8.setBounds(100, 730, 130, 14);
+
+        jLabel9.setText("Phone no.");
+        jPanel1.add(jLabel9);
+        jLabel9.setBounds(100, 750, 60, 14);
+
+        jButton1.setText("Back");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton1);
+        jButton1.setBounds(500, 720, 55, 23);
+
+        jLabel10.setText("Website:");
+        jPanel1.add(jLabel10);
+        jLabel10.setBounds(100, 780, 60, 14);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -87,6 +107,13 @@ public class msit extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        cpf2 ms= new cpf2();
+        ms.show();
+        this.dispose();
+        
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -124,7 +151,9 @@ public class msit extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
@@ -132,6 +161,7 @@ public class msit extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }
