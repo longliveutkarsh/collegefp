@@ -103,18 +103,6 @@ public class cpf1 extends javax.swing.JFrame {
            ss.show();
            this.dispose();
        }
-        else if(jRadioButton3.isSelected()==true)
-       {
-           cpf3 r = new cpf3();
-           r.show();
-           this.dispose();
-       }
-       else if(jRadioButton2.isSelected()==true)
-       {
-           CollegeListLlb r = new CollegeListLlb();
-           r.show();
-           this.dispose();
-       }
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
