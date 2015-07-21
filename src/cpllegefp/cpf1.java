@@ -35,6 +35,7 @@ public class cpf1 extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
+        jButton3 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -76,6 +77,15 @@ public class cpf1 extends javax.swing.JFrame {
         jPanel1.add(jLabel2);
         jLabel2.setBounds(200, 40, 179, 22);
 
+        jButton3.setText("Back");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton3);
+        jButton3.setBounds(20, 260, 55, 23);
+
         jLabel1.setText("jLabel1");
         jPanel1.add(jLabel1);
         jLabel1.setBounds(0, 0, 610, 310);
@@ -103,6 +113,19 @@ public class cpf1 extends javax.swing.JFrame {
            ss.show();
            this.dispose();
        }
+       if(jRadioButton2.isSelected()==true)
+       {
+           CollegeListLlb l = new CollegeListLlb();
+           l.show();
+           this.dispose();
+           
+       }
+       if(jRadioButton3.isSelected()==true)
+       {
+           cpf3 c = new cpf3();
+           c.show();
+           this.dispose();
+       }
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
@@ -111,6 +134,14 @@ public class cpf1 extends javax.swing.JFrame {
          this.dispose();
        
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        // TODO add your handling code here:
+        cpfmain c = new cpfmain();
+        c.show();
+        this.dispose();
+        
+    }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -150,6 +181,7 @@ public class cpf1 extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
