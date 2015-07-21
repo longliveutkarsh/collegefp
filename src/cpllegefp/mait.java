@@ -43,9 +43,10 @@ public class mait extends javax.swing.JFrame {
 
         jPanel1.setLayout(null);
 
+        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\admin\\Desktop\\mait.jpg")); // NOI18N
         jLabel2.setText("jLabel2");
         jPanel1.add(jLabel2);
-        jLabel2.setBounds(200, 30, 290, 190);
+        jLabel2.setBounds(200, 30, 260, 190);
 
         jLabel3.setFont(new java.awt.Font("Algerian", 1, 24)); // NOI18N
         jLabel3.setText("Maharaja agrasen Institute of Technology");
@@ -54,31 +55,31 @@ public class mait extends javax.swing.JFrame {
 
         jLabel4.setText("jLabel4");
         jPanel1.add(jLabel4);
-        jLabel4.setBounds(70, 280, 34, 14);
+        jLabel4.setBounds(70, 280, 550, 150);
 
         jLabel5.setText("Admission Criteria: IPCET");
         jPanel1.add(jLabel5);
-        jLabel5.setBounds(80, 590, 140, 14);
+        jLabel5.setBounds(60, 460, 150, 20);
 
         jLabel6.setText("Intake: 360 Students");
         jPanel1.add(jLabel6);
-        jLabel6.setBounds(80, 620, 120, 14);
+        jLabel6.setBounds(60, 490, 180, 14);
 
         jLabel7.setText("Fees: 1,20,200/-");
         jPanel1.add(jLabel7);
-        jLabel7.setBounds(80, 650, 82, 14);
+        jLabel7.setBounds(60, 510, 200, 14);
 
-        jLabel8.setText("Address:");
+        jLabel8.setText("Address: PSP Area, Plot No. 1, Sector-22, Rohini, Delhi-110086");
         jPanel1.add(jLabel8);
-        jLabel8.setBounds(80, 670, 43, 14);
+        jLabel8.setBounds(60, 540, 330, 14);
 
-        jLabel9.setText("Phone no.: ");
+        jLabel9.setText("Phone no.: 011-  65647742 and 65151164");
         jPanel1.add(jLabel9);
-        jLabel9.setBounds(80, 700, 56, 14);
+        jLabel9.setBounds(60, 570, 320, 14);
 
-        jLabel10.setText("Website:");
+        jLabel10.setText("Website: http://www.mait.ac.in/");
         jPanel1.add(jLabel10);
-        jLabel10.setBounds(80, 730, 70, 14);
+        jLabel10.setBounds(60, 600, 290, 14);
 
         jButton1.setText("Back");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -87,7 +88,7 @@ public class mait extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jButton1);
-        jButton1.setBounds(20, 790, 55, 23);
+        jButton1.setBounds(50, 650, 55, 23);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

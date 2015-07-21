@@ -55,7 +55,7 @@ public class amity extends javax.swing.JFrame {
 
         jPanel1.setLayout(null);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\lopa\\Desktop\\images.jpg")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\admin\\Desktop\\amity1.jpg")); // NOI18N
         jLabel2.setText("jLabel2");
         jPanel1.add(jLabel2);
         jLabel2.setBounds(180, 30, 260, 190);
@@ -67,23 +67,23 @@ public class amity extends javax.swing.JFrame {
 
         jLabel4.setText("jLabel4");
         jPanel1.add(jLabel4);
-        jLabel4.setBounds(40, 280, 570, 290);
+        jLabel4.setBounds(40, 280, 570, 170);
 
         jLabel5.setText("Admission Criteria: IPCET");
         jPanel1.add(jLabel5);
-        jLabel5.setBounds(60, 590, 130, 14);
+        jLabel5.setBounds(60, 490, 130, 14);
 
         jLabel6.setText("Intake:240 students are enrolled every year. The annual intake is 60 students per branch.");
         jPanel1.add(jLabel6);
-        jLabel6.setBounds(60, 620, 450, 14);
+        jLabel6.setBounds(60, 520, 450, 14);
 
         jLabel7.setText("Fees: 80,000/-");
         jPanel1.add(jLabel7);
-        jLabel7.setBounds(60, 650, 90, 14);
+        jLabel7.setBounds(70, 560, 90, 14);
 
         jLabel8.setText("Address: 580, Najafgarh Kapashera Rd, Dalmia Vihar, Bijwasan, New Delhi, Delhi 110061");
         jPanel1.add(jLabel8);
-        jLabel8.setBounds(60, 680, 426, 14);
+        jLabel8.setBounds(70, 600, 426, 14);
 
         jLabel9.setText("Phone: 011 2806 2106");
         jPanel1.add(jLabel9);
@@ -104,7 +104,7 @@ public class amity extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jButton1);
-        jButton1.setBounds(540, 660, 55, 23);
+        jButton1.setBounds(540, 630, 55, 23);
 
         jLabel1.setText("jLabel1");
         jPanel1.add(jLabel1);

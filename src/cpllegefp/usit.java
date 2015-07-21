@@ -3,17 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
 package cpllegefp;
 
 /**
  *
- * @author lopa
+ * @author admin
  */
-public class gtbit extends javax.swing.JFrame {
+public class usit extends javax.swing.JFrame {
 
-    String msg=" Guru Tegh Bahadur Institute of Technology (GTBIT) was established in 1999 by \nDelhi Sikh Gurdwara Management Committee (DSGMC), which is running a large number of \neducational institutes, besides carrying out large number of religious and social activities. \nGTBIT is a degree level technical institute, approved by AICTE and affiliated to \nGuru Gobind Singh Indraprastha University, Delhi. This university was established by\n Government of NCT of Delhi under provisions of Guru Gobind Singh University Act, \n1998 read with its Amendment in 1999. It is affiliating and teaching University. \nIt is recognised by University Grant Commission, India under section 12B of UGC Act. \nIt has also been accredited \" A Grade\" by NAAC. \n" +
-"GTBIT has a sprawling campus and is centrally located in Rajouri Garden, New Delhi. The institute has five spacious buildings and state-of-art laboratories. Students of GTBIT have the best of facilities, a conducive environment for studies and a dedicated faculty to guide them and lead them to sucess. ";
-    public gtbit() {
+    /**
+     * Creates new form usit
+     */
+    public usit() {
         initComponents();
     }
 
@@ -35,51 +37,47 @@ public class gtbit extends javax.swing.JFrame {
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
+        jLabel10 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setLayout(null);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\admin\\Desktop\\gtbit.jpg")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\admin\\Desktop\\usit.jpg")); // NOI18N
         jLabel2.setText("jLabel2");
         jPanel1.add(jLabel2);
-        jLabel2.setBounds(190, 90, 250, 130);
+        jLabel2.setBounds(210, 70, 190, 150);
 
         jLabel3.setFont(new java.awt.Font("Algerian", 1, 24)); // NOI18N
-        jLabel3.setText("Guru Teg Bahadur Institute of Technology");
+        jLabel3.setText("University School of Information Technology");
         jPanel1.add(jLabel3);
-        jLabel3.setBounds(50, 260, 580, 32);
+        jLabel3.setBounds(20, 230, 620, 32);
 
         jLabel4.setText("jLabel4");
         jPanel1.add(jLabel4);
-        jLabel4.setBounds(30, 300, 650, 130);
+        jLabel4.setBounds(120, 280, 360, 170);
 
         jLabel5.setText("Admission Criteria: IPCET");
         jPanel1.add(jLabel5);
-        jLabel5.setBounds(70, 440, 250, 14);
+        jLabel5.setBounds(80, 480, 160, 14);
 
-        jLabel6.setText("Fees: 80,000/-");
+        jLabel6.setText("Intake: 240 students are enrolled annually. 60 students are enrolled from each branch.");
         jPanel1.add(jLabel6);
-        jLabel6.setBounds(70, 490, 90, 14);
+        jLabel6.setBounds(80, 510, 430, 14);
 
-        jLabel7.setText("Intake: 240 annual intake, 60 students are enrolled from each branch.");
+        jLabel7.setText("Fees: 80,000/-");
         jPanel1.add(jLabel7);
-        jLabel7.setBounds(70, 460, 400, 14);
+        jLabel7.setBounds(80, 540, 440, 14);
 
-        jLabel8.setText("Address: G-8 Area, Rajouri Garden,, New Delhi, Delhi 110064");
+        jLabel8.setText("Address: Sector - 16C Dwarka  Delhi - 110078, India");
         jPanel1.add(jLabel8);
-        jLabel8.setBounds(70, 520, 300, 14);
+        jLabel8.setBounds(80, 570, 460, 14);
 
-        jLabel9.setText("Phone no.011 4559 9900");
+        jLabel9.setText("Phone No.  +91-11-25302167, 25302168, 25302169");
         jPanel1.add(jLabel9);
-        jLabel9.setBounds(70, 540, 150, 14);
-
-        jLabel10.setText("Website: www.gtbit.org");
-        jPanel1.add(jLabel10);
-        jLabel10.setBounds(70, 570, 370, 14);
+        jLabel9.setBounds(80, 600, 480, 14);
 
         jButton1.setText("Back");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -88,32 +86,34 @@ public class gtbit extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jButton1);
-        jButton1.setBounds(70, 600, 55, 23);
+        jButton1.setBounds(30, 670, 55, 23);
+
+        jLabel10.setText("Website: ipu.ac.in/usitnweb/");
+        jPanel1.add(jLabel10);
+        jLabel10.setBounds(80, 630, 440, 14);
 
         jLabel1.setText("jLabel1");
         jPanel1.add(jLabel1);
-        jLabel1.setBounds(0, 0, 740, 880);
+        jLabel1.setBounds(-10, -20, 900, 840);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 731, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 877, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        cpf2 g= new cpf2();
-        g.show();
+        cpf2 u= new cpf2();
+        u.show();
         this.dispose();
-        
-        
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
@@ -133,20 +133,20 @@ public class gtbit extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(gtbit.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(usit.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(gtbit.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(usit.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(gtbit.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(usit.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(gtbit.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(usit.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new gtbit().setVisible(true);
+                new usit().setVisible(true);
             }
         });
     }
