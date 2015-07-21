@@ -52,10 +52,10 @@ public class bharti extends javax.swing.JFrame {
 
         jPanel1.setLayout(null);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\lopa\\Desktop\\bvp.jpg")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\admin\\Desktop\\bvp.jpg")); // NOI18N
         jLabel2.setText("jLabel2");
         jPanel1.add(jLabel2);
-        jLabel2.setBounds(190, 50, 250, 162);
+        jLabel2.setBounds(190, 50, 250, 180);
 
         jLabel3.setFont(new java.awt.Font("Algerian", 1, 24)); // NOI18N
         jLabel3.setText("Bharti Vidyapeeth college of engineering");
@@ -64,35 +64,35 @@ public class bharti extends javax.swing.JFrame {
 
         jLabel4.setText("jLabel4");
         jPanel1.add(jLabel4);
-        jLabel4.setBounds(60, 350, 690, 330);
+        jLabel4.setBounds(30, 300, 540, 150);
 
         jLabel5.setText("Admission Criteria: IPCET");
         jPanel1.add(jLabel5);
-        jLabel5.setBounds(70, 690, 140, 14);
+        jLabel5.setBounds(70, 460, 140, 14);
 
         jLabel6.setText("Intake: 360 students are enrolled every year. Annual intake is 60 for each branch except ECE which takes 120 students. ");
         jPanel1.add(jLabel6);
-        jLabel6.setBounds(70, 720, 590, 14);
+        jLabel6.setBounds(70, 490, 590, 14);
 
         jLabel7.setText("Fees: 85000/-");
         jPanel1.add(jLabel7);
-        jLabel7.setBounds(80, 750, 80, 14);
+        jLabel7.setBounds(70, 520, 80, 14);
 
         jLabel8.setText(" Address: A-4, Paschim Vihar, Main Rohtak Road, Opposite Ordinance Depot,,Delhi,Delhi NCR - 110063");
         jPanel1.add(jLabel8);
-        jLabel8.setBounds(70, 780, 510, 14);
+        jLabel8.setBounds(70, 550, 510, 14);
 
         jLabel9.setText("Phone: 011 - 25278443, 25278444, 25258637");
         jPanel1.add(jLabel9);
-        jLabel9.setBounds(70, 810, 240, 14);
+        jLabel9.setBounds(70, 580, 240, 14);
 
         jLabel10.setText(" Email: coedelhi@bharatividyapeeth.edu");
         jPanel1.add(jLabel10);
-        jLabel10.setBounds(70, 840, 200, 14);
+        jLabel10.setBounds(70, 620, 280, 14);
 
         jLabel11.setText("Website: www.bvcoend.ac.in");
         jPanel1.add(jLabel11);
-        jLabel11.setBounds(70, 870, 150, 14);
+        jLabel11.setBounds(80, 650, 270, 14);
 
         jButton1.setText("Back");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -101,19 +101,21 @@ public class bharti extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jButton1);
-        jButton1.setBounds(70, 900, 55, 23);
+        jButton1.setBounds(80, 680, 55, 23);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 778, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 947, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 936, Short.MAX_VALUE))
         );
 
         pack();
