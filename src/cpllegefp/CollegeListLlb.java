@@ -47,20 +47,35 @@ public class CollegeListLlb extends javax.swing.JFrame {
         jPanel2.setLayout(null);
 
         jButton1.setText("Jagannath Institute of mangement Studies");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
         jPanel2.add(jButton1);
-        jButton1.setBounds(80, 50, 250, 29);
+        jButton1.setBounds(80, 50, 250, 23);
 
         jButton2.setText("Trinity School of Management");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
         jPanel2.add(jButton2);
-        jButton2.setBounds(80, 90, 250, 29);
+        jButton2.setBounds(80, 90, 250, 23);
 
         jButton3.setText("Fairfield Institue of Management");
         jPanel2.add(jButton3);
-        jButton3.setBounds(80, 130, 250, 29);
+        jButton3.setBounds(80, 130, 250, 23);
 
         jButton4.setText("Maharaja Suraj of Institue of Managament");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
         jPanel2.add(jButton4);
-        jButton4.setBounds(77, 170, 250, 29);
+        jButton4.setBounds(77, 170, 250, 23);
 
         jButton5.setText("BLS  Institute of Management");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
@@ -69,33 +84,34 @@ public class CollegeListLlb extends javax.swing.JFrame {
             }
         });
         jPanel2.add(jButton5);
-        jButton5.setBounds(80, 210, 250, 29);
+        jButton5.setBounds(80, 210, 250, 23);
 
         jButton6.setText("Fore Institute of Management");
         jPanel2.add(jButton6);
-        jButton6.setBounds(80, 250, 250, 29);
+        jButton6.setBounds(80, 250, 250, 23);
 
         jButton7.setText("back");
         jPanel2.add(jButton7);
-        jButton7.setBounds(20, 270, 75, 29);
+        jButton7.setBounds(20, 270, 55, 23);
 
         jLabel3.setText("B.B.A Colleges");
         jPanel2.add(jLabel3);
         jLabel3.setBounds(150, 10, 90, 30);
 
+        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\admin\\Desktop\\frt32.jpg")); // NOI18N
         jLabel2.setText("jLabel2");
         jPanel2.add(jLabel2);
-        jLabel2.setBounds(0, 4, 410, 300);
+        jLabel2.setBounds(0, 4, 430, 330);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, 432, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, 331, Short.MAX_VALUE)
         );
 
         pack();
@@ -104,6 +120,25 @@ public class CollegeListLlb extends javax.swing.JFrame {
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+        
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+        C2 c = new C2();
+        c.show();
+        this.dispose();
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        // TODO add your handling code here:
+        MSIM m = new MSIM();
+        m.show();
+        this.dispose();
+    }//GEN-LAST:event_jButton4ActionPerformed
 
     /**
      * @param args the command line arguments

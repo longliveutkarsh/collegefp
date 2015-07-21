@@ -43,31 +43,31 @@ public class cpf3 extends javax.swing.JFrame {
 
         jButton1.setText("Amity Law School");
         jPanel1.add(jButton1);
-        jButton1.setBounds(40, 40, 330, 29);
+        jButton1.setBounds(40, 40, 330, 23);
 
         jButton2.setText("BLS Institute of Technology Management");
         jPanel1.add(jButton2);
-        jButton2.setBounds(33, 70, 340, 29);
+        jButton2.setBounds(33, 70, 340, 23);
 
         jButton3.setText("Fairfield Institute of Management & Technology");
         jPanel1.add(jButton3);
-        jButton3.setBounds(30, 100, 340, 29);
+        jButton3.setBounds(30, 100, 340, 23);
 
         jButton4.setText("JIMS Engineering Management Technical Campus,School of Law");
         jPanel1.add(jButton4);
-        jButton4.setBounds(33, 130, 340, 29);
+        jButton4.setBounds(33, 130, 340, 23);
 
         jButton5.setText("University School of Law & Legal Studies");
         jPanel1.add(jButton5);
-        jButton5.setBounds(33, 160, 340, 29);
+        jButton5.setBounds(33, 160, 340, 23);
 
         jButton6.setText("Vivekananda Institute of Professional Studies");
         jPanel1.add(jButton6);
-        jButton6.setBounds(33, 190, 340, 29);
+        jButton6.setBounds(33, 190, 340, 23);
 
         jButton7.setText("Back");
         jPanel1.add(jButton7);
-        jButton7.setBounds(90, 250, 75, 29);
+        jButton7.setBounds(90, 250, 55, 23);
 
         jLabel1.setText("jLabel1");
         jPanel1.add(jLabel1);
@@ -77,11 +77,11 @@ public class cpf3 extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 404, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 297, Short.MAX_VALUE)
         );
 
         pack();

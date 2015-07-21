@@ -40,34 +40,48 @@ public class C2 extends javax.swing.JFrame {
 
         jPanel1.setLayout(null);
         getContentPane().add(jPanel1);
-        jPanel1.setBounds(1426, 0, 693, 386);
+        jPanel1.setBounds(1426, 0, 0, 386);
 
         jLabel4.setText("jLabel4");
         getContentPane().add(jLabel4);
-        jLabel4.setBounds(124, 4, 450, 110);
+        jLabel4.setBounds(80, 10, 450, 110);
 
         jLabel2.setText("jLabel2");
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(230, 130, 350, 110);
+        jLabel2.setBounds(90, 120, 400, 140);
 
         jLabel3.setText("jLabel3");
         getContentPane().add(jLabel3);
-        jLabel3.setBounds(90, 264, 180, 40);
+        jLabel3.setBounds(70, 270, 180, 40);
 
         jLabel5.setText("jLabel5");
         getContentPane().add(jLabel5);
         jLabel5.setBounds(80, 300, 150, 40);
 
         jButton1.setText("Back");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton1);
         jButton1.setBounds(40, 360, 55, 23);
 
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\admin\\Desktop\\frt32.jpg")); // NOI18N
         jLabel1.setText("jLabel1");
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(0, 0, 1420, 386);
+        jLabel1.setBounds(0, 0, 910, 630);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+        CollegeListLlb l = new CollegeListLlb();
+        l.show();
+        this.dispose();
+        
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
