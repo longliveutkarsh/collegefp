@@ -31,22 +31,23 @@ public class msit extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
         jLabel5 = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
         jLabel10 = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setLayout(null);
 
+        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\admin\\Desktop\\msit.jpg")); // NOI18N
         jLabel2.setText("jLabel2");
         jPanel1.add(jLabel2);
-        jLabel2.setBounds(220, 20, 210, 180);
+        jLabel2.setBounds(170, 30, 300, 170);
 
         jLabel3.setFont(new java.awt.Font("Algerian", 1, 24)); // NOI18N
         jLabel3.setText("Maharaja Surajmal Institute of Technology");
@@ -55,31 +56,7 @@ public class msit extends javax.swing.JFrame {
 
         jLabel4.setText("jLabel4");
         jPanel1.add(jLabel4);
-        jLabel4.setBounds(90, 280, 560, 340);
-
-        jLabel5.setText("Admission Criteria: IPCET");
-        jPanel1.add(jLabel5);
-        jLabel5.setBounds(100, 640, 130, 14);
-
-        jLabel1.setText("jLabel1");
-        jPanel1.add(jLabel1);
-        jLabel1.setBounds(0, 0, 760, 560);
-
-        jLabel6.setText("Intake: 360 students are enrolled annually.120 students are taken every year.");
-        jPanel1.add(jLabel6);
-        jLabel6.setBounds(100, 670, 400, 14);
-
-        jLabel7.setText("Fees:80,000/-");
-        jPanel1.add(jLabel7);
-        jLabel7.setBounds(100, 700, 90, 14);
-
-        jLabel8.setText("Address:");
-        jPanel1.add(jLabel8);
-        jLabel8.setBounds(100, 730, 130, 14);
-
-        jLabel9.setText("Phone no.");
-        jPanel1.add(jLabel9);
-        jLabel9.setBounds(100, 750, 60, 14);
+        jLabel4.setBounds(50, 260, 540, 150);
 
         jButton1.setText("Back");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -88,21 +65,45 @@ public class msit extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jButton1);
-        jButton1.setBounds(500, 720, 55, 23);
+        jButton1.setBounds(70, 630, 55, 23);
 
-        jLabel10.setText("Website:");
+        jLabel5.setText("Admission Criteria: IPCET");
+        jPanel1.add(jLabel5);
+        jLabel5.setBounds(70, 470, 130, 14);
+
+        jLabel6.setText("Intake: 360 students are enrolled annually.120 students are taken every year.");
+        jPanel1.add(jLabel6);
+        jLabel6.setBounds(70, 490, 400, 14);
+
+        jLabel7.setText("Fees:80,000/-");
+        jPanel1.add(jLabel7);
+        jLabel7.setBounds(70, 520, 90, 14);
+
+        jLabel8.setText("Address:  C-4 Janak Puri, New Delhi, Delhi 110058");
+        jPanel1.add(jLabel8);
+        jLabel8.setBounds(70, 540, 330, 14);
+
+        jLabel9.setText("Phone no. 011 2555 2667");
+        jPanel1.add(jLabel9);
+        jLabel9.setBounds(70, 570, 280, 14);
+
+        jLabel10.setText("Website: www.msit.in/");
         jPanel1.add(jLabel10);
-        jLabel10.setBounds(100, 780, 60, 14);
+        jLabel10.setBounds(70, 600, 240, 14);
+
+        jLabel1.setText("jLabel1");
+        jPanel1.add(jLabel1);
+        jLabel1.setBounds(0, 0, 760, 440);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 619, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 525, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 809, Short.MAX_VALUE)
         );
 
         pack();
