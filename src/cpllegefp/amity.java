@@ -47,7 +47,6 @@ public class amity extends javax.swing.JFrame {
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
@@ -79,23 +78,19 @@ public class amity extends javax.swing.JFrame {
 
         jLabel7.setText("Fees: 80,000/-");
         jPanel1.add(jLabel7);
-        jLabel7.setBounds(70, 560, 90, 14);
+        jLabel7.setBounds(60, 540, 90, 14);
 
         jLabel8.setText("Address: 580, Najafgarh Kapashera Rd, Dalmia Vihar, Bijwasan, New Delhi, Delhi 110061");
         jPanel1.add(jLabel8);
-        jLabel8.setBounds(70, 600, 426, 14);
+        jLabel8.setBounds(50, 560, 426, 14);
 
         jLabel9.setText("Phone: 011 2806 2106");
         jPanel1.add(jLabel9);
-        jLabel9.setBounds(60, 710, 120, 10);
+        jLabel9.setBounds(50, 590, 120, 10);
 
-        jLabel10.setText("Official website");
+        jLabel10.setText("Website: www.amity.edu/aset/");
         jPanel1.add(jLabel10);
-        jLabel10.setBounds(60, 730, 90, 14);
-
-        jLabel11.setText("Facebook Links");
-        jPanel1.add(jLabel11);
-        jLabel11.setBounds(60, 760, 80, 14);
+        jLabel10.setBounds(50, 610, 210, 14);
 
         jButton1.setText("Back");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -104,11 +99,11 @@ public class amity extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jButton1);
-        jButton1.setBounds(540, 630, 55, 23);
+        jButton1.setBounds(50, 640, 55, 23);
 
         jLabel1.setText("jLabel1");
         jPanel1.add(jLabel1);
-        jLabel1.setBounds(0, 0, 640, 920);
+        jLabel1.setBounds(0, -10, 640, 920);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -171,7 +166,6 @@ public class amity extends javax.swing.JFrame {
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
